@@ -7,7 +7,7 @@ const messages = [];
 createServer(
   createYoga({
     schema: createSchema({
-      typeDefs: /* GraphQL */ `
+      typeDefs: `
         type Message{
           id: ID!
           user: String!
